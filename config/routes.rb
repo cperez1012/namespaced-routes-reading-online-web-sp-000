@@ -9,5 +9,5 @@ Rails.application.routes.draw do
     resources :stats, only: [:index]
   end
 
-  root 'posts#index'
+  # root 'posts#index'
 end
